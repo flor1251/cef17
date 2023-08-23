@@ -30,11 +30,10 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  background-color: #e2be0b;
+  background-color: #faef21;
   padding: 10px;
+  border-radius: 8px;
 }
-
-
 
 nav ul li {
   margin-right: 20px;
@@ -44,6 +43,7 @@ nav ul li a {
   text-decoration: none;
   color: #115740;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .hero {
@@ -71,6 +71,10 @@ nav ul li a {
   padding-bottom: 30px;
   font-size: 50px;
   color: #115740;
+}
+
+.separado {
+  margin-top: 15px;
 }
 
 .about,
@@ -107,4 +111,8 @@ footer {
 
 .blanquito a:hover {
   color: white;
+}
+
+.blanquito {
+  justify-content: center;
 }
