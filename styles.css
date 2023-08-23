@@ -1,100 +1,110 @@
 /* Reset de estilos básicos */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .justificado {
-    text-align: justify;
-  }
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
 
-  .bienvenida {
-    font-size: 50px;
-  }
-  
-  /* Estilos generales */
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: #e2be0b;
-    padding: 10px;
-  }
+.justificado {
+  text-align: justify;
+}
 
- 
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #115740;
-    font-weight: bold;
-  }
-  
-  .hero {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 50px;
-  }
+.bienvenida {
+  font-size: 50px;
+}
 
-  .hero h1 {
-    font-weight: bold;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
 
-  .proposito {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    font-size: 50px;
-    color: #115740;
-  }
-  
-  .about, .services, .contact {
-    padding: 50px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
+header {
+  padding-top: 30px;
+}
 
-  .social {
-    display: flex;
-    justify-content: center;
-    background-color: #115740;
-    border-radius: 8px;
-    border: #115740 solid 2px;
-    margin-top: 3px;
-  }
-  
-  .social i {
-    font-size: 40px;
-    color: white;
-    margin: 5px;
-  }
-  
-  .social i:hover {
-    color: #fed420;
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e2be0b;
+  padding: 10px;
+}
 
-  .blanquito a:hover {
-    color: white;
-  }
 
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #115740;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.proposito {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: #115740;
+}
+
+.about,
+.services,
+.contact {
+  padding: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  background-color: #115740;
+  border-radius: 8px;
+  border: #115740 solid 2px;
+  margin-top: 3px;
+}
+
+.social i {
+  font-size: 40px;
+  color: white;
+  margin: 5px;
+}
+
+.social i:hover {
+  color: #fed420;
+}
+
+.blanquito a:hover {
+  color: white;
+}
